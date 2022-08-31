@@ -1,0 +1,34 @@
+.body {
+
+    &__right-side {
+        width: 48%;
+        border: 1px dotted green;
+        position: relative;
+    }
+
+    &__right-side-element {
+        position: absolute;
+        bottom: 0;
+        border-radius: 50%;
+    }
+
+    &__right-side-img {
+
+
+        border: 1px solid red;
+    }
+}
+
+.element-girl {
+    width: 836px;
+    right: -210px;
+}
+
+.element-green-elipce {
+    background-color: #48B774;
+    width: 280px;
+    height: 280px;
+    bottom: 200px;
+    right: 66px;
+    z-index: -1;
+}

@@ -1,0 +1,83 @@
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 31px 0 0 0;
+}
+.header__company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__img {
+  width: 40px;
+  height: 40px;
+  margin: 0 8px 0 0;
+}
+.header__name-company {
+  font-size: 500px;
+  font-size: 25px;
+  line-height: 152%;
+  padding: 0 76px 0 0;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 850px) {
+  .header__nav {
+    display: none;
+  }
+}
+.header__nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__nav-li {
+  margin: 0px 46px 0 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: relative;
+  padding: 0 0 4px 0;
+}
+.header__nav-li:hover {
+  cursor: pointer;
+  color: #FB9B69;
+}
+.header__nav-li:first-child:before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  height: 1.5px;
+  width: 21px;
+  background-color: #FB9B69;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.header__sign-up-btn {
+  color: #FFFFFF;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.header__sign-up-btn:hover {
+  opacity: 0.8;
+}
+.header__link {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 9px 23px;
+  background-color: #48B774;
+  border-radius: 20px;
+}

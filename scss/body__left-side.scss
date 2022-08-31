@@ -1,0 +1,115 @@
+.body {
+
+    &__left-side {
+        width: 52%;
+        padding: 120px 0 0 0;
+    }
+
+    &__title-1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65 / 48 * 100%;
+        color: #2D2D2D;
+    }
+
+    &__title-2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72 / 48 * 100%;
+        color: #2D2D2D;
+        margin: -8px 0 0 0;
+    }
+
+    &__sub-title {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26 / 15 * 100%;
+        padding: 9px 105px 42px 0;
+    }
+
+    &__btn-container {
+        color: #FFFFFF;
+    }
+
+    &__get-started-btn {
+        padding: 11.5px 20px;
+    }
+
+    &__input-container {
+        padding: 61px 0 0 0;
+        position: relative;
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        height: 62px;
+        border-radius: 100px;
+        padding: 21px 40px;
+    }
+    &__input::placeholder {
+        color: #A2A2A2;
+        opacity: 0.6;
+    }
+    &__input:focus {
+        box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    }
+
+    &__input-search-icon {
+        background-image: url(../img/body/search-icon.png);
+        background-size: cover;
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        right: -15px;
+        top: 62px;
+        transition: opacity 0.3s ease-in;
+        border-radius: 50%;
+    }
+    &__input-search-icon:hover {
+        opacity: 0.8;
+    }
+
+    &__users {
+        padding: 40px 0 40px 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__users-icons {
+        position: relative;
+        width: 115px;
+        height: 38px;
+    }
+
+    &__users-icons-container {
+        border-radius: 50%;
+    }
+
+    &__users-icons-img {
+        position: absolute;
+        height: 38px;
+        max-width: 38px;
+        top: 0;
+        left: 0;
+    }
+
+    &__users-text {
+    }
+}
+
+.icon-first {
+}
+
+.icon-second {
+    transform: translateX(20px);
+}
+
+.icon-third {
+    transform: translateX(40px);
+}
+
+.icon-plus {
+    transform: translateX(60px);
+    background-color: brown;
+}

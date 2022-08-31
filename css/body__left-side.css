@@ -1,0 +1,118 @@
+.body__left-side {
+  width: 52%;
+  padding: 120px 0 0 0;
+}
+.body__title-1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 135.4166666667%;
+  color: #2D2D2D;
+}
+.body__title-2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: #2D2D2D;
+  margin: -8px 0 0 0;
+}
+.body__sub-title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 173.3333333333%;
+  padding: 9px 105px 42px 0;
+}
+.body__btn-container {
+  color: #FFFFFF;
+}
+.body__get-started-btn {
+  padding: 11.5px 20px;
+}
+.body__input-container {
+  padding: 61px 0 0 0;
+  position: relative;
+}
+.body__input {
+  display: block;
+  width: 100%;
+  height: 62px;
+  border-radius: 100px;
+  padding: 21px 40px;
+}
+.body__input::-webkit-input-placeholder {
+  color: #A2A2A2;
+  opacity: 0.6;
+}
+.body__input::-moz-placeholder {
+  color: #A2A2A2;
+  opacity: 0.6;
+}
+.body__input:-ms-input-placeholder {
+  color: #A2A2A2;
+  opacity: 0.6;
+}
+.body__input::-ms-input-placeholder {
+  color: #A2A2A2;
+  opacity: 0.6;
+}
+.body__input::placeholder {
+  color: #A2A2A2;
+  opacity: 0.6;
+}
+.body__input:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+.body__input-search-icon {
+  background-image: url(../img/body/search-icon.png);
+  background-size: cover;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  right: -15px;
+  top: 62px;
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  border-radius: 50%;
+}
+.body__input-search-icon:hover {
+  opacity: 0.8;
+}
+.body__users {
+  padding: 40px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.body__users-icons {
+  position: relative;
+  width: 115px;
+  height: 38px;
+}
+.body__users-icons-container {
+  border-radius: 50%;
+}
+.body__users-icons-img {
+  position: absolute;
+  height: 38px;
+  max-width: 38px;
+  top: 0;
+  left: 0;
+}
+.icon-second {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.icon-third {
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+}
+
+.icon-plus {
+  -webkit-transform: translateX(60px);
+          transform: translateX(60px);
+  background-color: brown;
+}
